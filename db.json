@@ -42,7 +42,7 @@
       "id": "2",
       "name": "Кроссовки Puma X Aka Boku Future Rider",
       "price": 14,
-      "imageUrl": "img/sneakers/3.jpg"
+      "imageUrl": "./react-s-shop/img/sneakers/3.jpg"
     }
   ],
   "favorite": [],
@@ -52,13 +52,13 @@
         "id": "2",
         "name": "Кроссовки Puma X Aka Boku Future Rider",
         "price": 14,
-        "imageUrl": "img/sneakers/3.jpg"
+        "imageUrl": "./react-s-shop/img/sneakers/3.jpg"
       },
       "1": {
         "id": "1",
         "name": "Мужские Кроссовки Nike Air Max 270",
         "price": 23,
-        "imageUrl": "img/sneakers/2.jpg"
+        "imageUrl": "./react-s-shop/img/sneakers/2.jpg"
       },
       "id": "6b98"
     }
