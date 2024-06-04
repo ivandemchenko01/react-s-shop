@@ -6,7 +6,7 @@ import axios from 'axios'
 import 'macro-css';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
-axios.defaults.baseURL = 'http://localhost:3002';
+axios.defaults.baseURL = 'https://my-json-server.typicode.com/ivandemchenko01/react-s-shop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
