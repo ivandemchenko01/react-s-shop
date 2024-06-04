@@ -31,8 +31,8 @@ function Home({
         <div className="mb-40 d-flex align-center justify-between">
             <h1>{searchValue ? `Search "${searchValue}"` : "All sneakers"}</h1>
             <div className="search-block d-flex">
-                <img src="img/search.svg" alt="Search" />
-                {searchValue && <img onClick={() => setSearchValue('')} className="removeBtn clear" src="/img/btn-remove.svg" alt="Clear" />}
+                <img src="./react-s-shop/img/search.svg" alt="Search" />
+                {searchValue && <img onClick={() => setSearchValue('')} className="removeBtn clear" src="./react-s-shop/img/btn-remove.svg" alt="Clear" />}
                 <input type="text" onChange={onChangeSearchInput} value={searchValue} placeholder="Search. . ." />
             </div>
         </div>

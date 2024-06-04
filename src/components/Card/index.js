@@ -44,7 +44,7 @@ function Card({
                     :
                     (<>
                         <div className={styles.favorite} onClick={onClickFavorite}>
-                            <img src={isFavorite ? "/img/heart-on.svg" : "img/heart-off.svg"} alt="Unlicked" />
+                            <img src={isFavorite ? "./react-s-shop/img/heart-on.svg" : "./react-s-shop/heart-off.svg"} alt="Unlicked" />
                         </div>
                         <img width={133} height={113} src={imageUrl} alt="Sneaker" />
                         <h5>{title}</h5>
@@ -56,7 +56,7 @@ function Card({
                             <img
                                 className={styles.plus}
                                 onClick={onClickPlus}
-                                src={isAddedToCart(id) ? "img/btn-checked.svg" : "img/btn-plus.svg"} alt="Plus" />
+                                src={isAddedToCart(id) ? "./react-s-shop/img/btn-checked.svg" : "./react-s-shop/btn-plus.svg"} alt="Plus" />
                         </div>
                     </>)
             }
