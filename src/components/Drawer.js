@@ -36,7 +36,7 @@ function Drawer({ onCloseCart, onRemove, items = [] }) {
                 {items.length === 0 && <Info
                     title={isOrderCompleted ? "Order completed!" : "Your cart is empty"}
                     description={isOrderCompleted ? `Your order is success with number #${orderId}` : "Please add to cart something"}
-                    image={isOrderCompleted ? "img/order-accepted.svg" : "img/empty-box.svg"} />}
+                    image={isOrderCompleted ? "./react-s-shop/img/order-accepted.svg" : "./react-s-shop/img/empty-box.svg"} />}
 
                 {items.length > 0 && <div className="items">
                     {
