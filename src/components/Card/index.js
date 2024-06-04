@@ -44,7 +44,7 @@ function Card({
                     :
                     (<>
                         <div className={styles.favorite} onClick={onClickFavorite}>
-                            <img src={isFavorite ? "img/heart-on.svg" : "img/heart-off.svg"} alt="Unlicked" />
+                            <img src={isFavorite ? "/img/heart-on.svg" : "img/heart-off.svg"} alt="Unlicked" />
                         </div>
                         <img width={133} height={113} src={imageUrl} alt="Sneaker" />
                         <h5>{title}</h5>
