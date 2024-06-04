@@ -11,7 +11,7 @@ axios.defaults.baseURL = 'https://my-json-server.typicode.com/ivandemchenko01/re
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <Router>
+    <Router basename='/react-s-shop'>
       <App/>
     </Router>
   // </React.StrictMode>
