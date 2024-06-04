@@ -87,7 +87,7 @@ function App() {
         <Header onClickCart={() => setCardOpened(true)} />
         <Routes>
           <Route
-            path="/" exact element={
+            path="/" element={
               <Home
                 items={items}
                 searchValue={searchValue}
